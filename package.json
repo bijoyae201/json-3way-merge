@@ -1,10 +1,10 @@
 {
-  "name": "json-3-way-merge",
-  "version": "1.0.0",
+  "name": "json-three-way-merge",
+  "version": "1.0.1",
   "description": "This project gives a json compare and merge algorithm implementation",
   "main": "index.js",
   "scripts": {
-    "build": "babel ./src -d ./dist --presets es2015",
+    "build": "babel index.js -d ./dist --presets es2015",
     "test": "jasmine"
   },
   "keywords": [
