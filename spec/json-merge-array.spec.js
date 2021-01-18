@@ -2,7 +2,7 @@
  * Importing Jasmine as the test framwork
  */
 let jasmine = require('jasmine');
-let jsonMerge = require('../src/json-merge');
+let jsonMerge = require('./../index');
 describe('Should run the test cases for array of objects', () => {
     it('Should add a new object when it is newly added in incoming', () => {
         let _master = {

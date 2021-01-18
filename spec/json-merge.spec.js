@@ -10,7 +10,7 @@ let masterjson = require('./data/master.json');
 let currentJson = require('./data/current.json');
 let incomingJson = require('./data/incoming.json');
 
-let jsonMerge = require('../src/json-merge');
+let jsonMerge = require('./../index');
 /**
  * This is the test cases for the 3-way-json-merge algorithm
  * The test cases will validte all the possible scenarios

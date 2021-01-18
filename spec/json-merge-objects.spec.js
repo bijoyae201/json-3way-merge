@@ -2,7 +2,7 @@
  * Include the necessary files and libraries
  */
 let jasmine = require('jasmine');
-let jsonMerge = require('../src/json-merge');
+let jsonMerge = require('./../index');
 /**
  * This test sute is the continuation of the test cases 
  * in json-merge.spec.js
